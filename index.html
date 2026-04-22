@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Andrew Anderson is a Scottish web developer and founder of AASI, specialising in bespoke websites, responsive design, SEO-friendly builds, and digital solutions for small businesses.">
+  <meta name="keywords" content="Scottish web developer, freelance web developer Scotland, web designer Scotland, bespoke website developer, responsive web design Scotland, SEO friendly websites">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Andrew Anderson">
+  <meta property="og:title" content="Andrew Anderson | Scottish Web Developer | AASI">
+  <meta property="og:description" content="Bespoke websites, responsive design, and digital solutions by Scottish web developer Andrew Anderson.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aasi.co.uk/">
+  <meta property="og:image" content="https://aasi.co.uk/images/og-image.png">
+  <title>Andrew Anderson | Scottish Web Developer | AASI</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="index.html" id="logo">
+          <img src="images/thistle-icon.png" alt="Thistle Logo" class="nav-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active fs-5" href="#home">Home</a>
+            <a class="nav-link fs-5" href="#about">About</a>
+            <a class="nav-link fs-5" href="#projects">Projects</a>
+            <a class="nav-link fs-5" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center">
+      <h1><span>Andrew Anderson - Scottish Web Developer</span></h1>
+      <p>Developer | Designer | Problem Solver</p>
+      <p>Entrepreneur | Enterprising</p>
+      <a href="#contact" class="btn btn-cta">Contact Me</a>
+    </div>
+  </section>
+
+
+  <section id="about" class="about">
+    <h2>About Andrew Anderson | Scottish Freelance Web Developer</h2>
+    <p>A passionate Scottish developer, blending creativity with logic to deliver elegant digital solutions.</p>
+    <p>Founder of a technology start-up with a vision for innovation and a brighter digital future.</p>
+    <p>Specialising in bespoke websites tailored for discerning clients who value craft and detail.</p>
+    <p>Driven by curiosity, committed to excellence, and dedicated to building experiences that last.</p>
+  
+    <div class="skills">
+    <h3>Tech Stack</h3>
+
+    <div class="skills-grid">
+      <div class="skill">
+        <i class="fa-brands fa-php"></i>
+        <span>PHP</span>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+
+      <div class="skill">
+        <i class="fa-solid fa-database"></i>
+        <span>MySQL</span>
+      </div>
+
+      <div class="skill">
+        <i class="fa-brands fa-react"></i>
+        <span>React</span>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+  <section id="projects" class="projects">
+    <h2>Web Development Projects</h2>
+    <div class="project-grid row row-cols-1 row-cols-md-2 g-4">
+      <div class="project-card col">
+        <div class="card h-100">
+          <img src="images/Lauren-Dog-Grooming.png" alt="Dog Grooming By Lauren" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h3 class="card-title">Dog Grooming By Lauren | Small Business Website</h3>
+            <p class="card-text">A clean, mobile-friendly website for a dog grooming business, showing services, prices, and contact info.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card col">
+        <div class="card h-100">
+          <img src="images/OrganicME.png" alt="Organic ME" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h3 class="card-title">Organic ME | Responsive Business Website</h3>
+            <p class="card-text">A responsive website showcasing organic products, a café, and the company’s mission. Built with Bootstrap 5, featuring a clean, user-friendly design with an interactive carousel and intuitive navigation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Andrew Anderson | Freelance Web Developer</h2>
+    <form id="contactForm" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn btn-cta">Send Message</button>
+      <div id="formMessage"></div>
+    </form>
+  </section>
+
+  <footer>
+    <img src="images/thistle-icon.png" alt="Thistle" class="footer-logo">
+    <p>© 2026 AASI. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Image Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <img id="modalImage" src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+
+ 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Project image modal
+      const modalEl = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      const modal = new bootstrap.Modal(modalEl, { focus: false });
+
+      document.querySelectorAll('.project-card img').forEach(img => {
+        img.addEventListener('click', () => {
+          modalImage.src = img.src;
+          modalImage.alt = img.alt || 'Preview';
+          modal.show();
+        });
+      });
+
+      modalEl.addEventListener('hidden.bs.modal', () => {
+        modalImage.src = '';
+      });
+
+      // Contact form submission
+      const form = document.getElementById('contactForm');
+      const formMessage = document.getElementById('formMessage');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        fetch('contact.php', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.text())
+        .then(text => {
+          formMessage.textContent = text;
+          formMessage.style.color = text.includes('Thank you') ? '#c9b17c' : '#ff4c4c';
+          if (text.includes('Thank you')) form.reset();
+        })
+        .catch(() => {
+          formMessage.textContent = "Oops! Something went wrong.";
+          formMessage.style.color = '#ff4c4c';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
