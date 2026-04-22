@@ -63,3 +63,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
     echo "There was a problem with your submission.";
 }
+
+?>
+
+<html>
+    <body>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.695215518289!2d-3.0960702468591283!3d55.94517891336126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b9a7365fccff%3A0x52629bc613f4b94b!2sEdinburgh%20College!5e0!3m2!1sen!2suk!4v1776862522590!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
