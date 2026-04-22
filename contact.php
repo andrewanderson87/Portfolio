@@ -14,6 +14,8 @@ $config = require dirname(__DIR__) . '/config/mail.php';
 
 echo "The changes are made in the public repository, there is no permission to make changes.";
 
+echo "who reads gay";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name = strip_tags(trim($_POST["name"]));
